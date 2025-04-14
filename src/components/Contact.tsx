@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Send, WhatsApp } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, MessageSquare } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
@@ -209,7 +208,7 @@ const Contact = () => {
               </div>
               
               <Button type="submit" className="w-full flex items-center justify-center gap-2 bg-accent hover:bg-accent/90">
-                <WhatsApp className="h-5 w-5" />
+                <MessageSquare className="h-5 w-5" />
                 Enviar via WhatsApp
               </Button>
             </form>
