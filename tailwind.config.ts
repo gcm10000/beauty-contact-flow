@@ -53,13 +53,11 @@ export default {
                     foreground: 'hsl(var(--card-foreground))'
                 },
                 salon: {
-                    pink: '#FFC0CB',
+                    pink: '#FFDEE2',
                     lavender: '#E6E6FA',
                     rose: '#FF9A8B',
                     purple: '#D8BFD8',
                     light: '#FFF0F5',
-                    gold: '#FFD700',
-                    red: '#ea384c'
                 }
             },
             borderRadius: {
